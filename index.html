@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DLS PLANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+   
+  </head>
+
+
+  <body>
+   <nav class="navbar navbar-expand-lg cabecalho__home">
+  <div class="container-fluid">
+    <img class="logo" src="assets/img/photo-output.png" width="65" alt="Logotipo">
+    <a class="navbar-brand" href="#">DLS PLANT</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Orçamentos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Casas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Praiana</a></li>
+            <li><a class="dropdown-item" href="#">Moderna</a></li>
+            <li><a class="dropdown-item" href="#">Rustica</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--CAROSSEL DO INICIO DO SITE-->
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="assets/img/casa9.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CASA SIESTAR</h5>
+        <p>Casas de primeira mão apenás para você!
+          Venha vender ou construir sua casa dos sonhos conosco.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="assets/img/casa10.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CASA LAGOAS</h5>
+        <p>Casas de primeira mão apenás para você!
+          Venha vender ou construir sua casa dos sonhos conosco.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/casa11.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CASA FAVILLE</h5>
+        <p>Casas de primeira mão apenás para você!
+          Venha vender ou construir sua casa dos sonhos conosco.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section class="sobre">
+  <h3 class="sobre__titulo">
+      Garantimos a melhor experiencia de compra
+  </h3>
+  <p class="sobre__descricao">Estaremos com você atê sua ultima etapa!</p>
+ 
+  <div class="sobre__container" id="sobre__container">
+
+    <div class="sobre__divs" id="sobre__divs">
+        <div class="sobre__divscont">
+            <img src="assets/img/icons8-loja-50.png" alt="sobre">
+            <h4 class="sobre__divstitulo1">Venha nos conhecer</h4>
+            <p class="sobre__divsdescri">
+                Venha falar conosco agora, para que possamos
+                fechar negócio e deixar sua casa embalada para você!
+            </p>
+            <button class="sobre__divsbutton">garantir agora</button>
+        </div>
+    </div>
+
+    <div class="sobre__divs">
+        <div class="sobre__divscont">
+            <img src="assets/img/icons8-desconto-50.png" alt="sobre">
+            <h4 class="sobre__divstitulo1">Melhores descontos</h4>
+            <p class="sobre__divsdescri">
+                Encontre aqui os melhores descontos de casas e apartamentos
+                da semana, são descontos imperdíveis
+            </p>
+            <button class="sobre__divsbutton">garantir agora</button>
+        </div>
+    </div>
+
+    <div class="sobre__divs">
+        <div class="sobre__divscont">
+            <img src="assets/img/icons8-shop-local-50.png" alt="sobre">
+            <h4 class="sobre__divstitulo1">Casas perto de você</h4>
+            <p class="sobre__divsdescri">
+                Encontre no nosso mapa as casas e apartamentos
+                mais proximas a você, e a sua região de moradia escolhida.
+            </p>
+            <button class="sobre__divsbutton">garantir agora</button>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!--CARDS SOBRE CADA CASA-->
+   
+    <section class="d-flex justify-content-around flex-wrap d-block" id="cardspai">
+  
+  <div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa20.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA SKY</h5>
+    <p class="card-text">Casa com parede revestida de tijolinho branco,
+      janelas de vidro comum blindex, luminárias metálicas na cor branca
+      e canteiro com vegetação natural, com varandas enormes. </p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$760.000,00</li>
+    <li class="list-group-item"><img src="assets/img/iconedacasa1.png">  3 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  3 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previa</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa31.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA CAMPOS</h5>
+    <p class="card-text">Casa ampla com pintura neutra nas salas, quartos em branco gelo,
+      sala de estar com sofá estofado na cor azul claro,
+      mesa de centro de madeira e parede com quadro decorativo.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$2.000.750,00</li>
+    <li class="list-group-item"><img src="assets/img/iconedacasa1.png">  4 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  6 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previa</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa23.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA GIRASSOL</h5>
+    <p class="card-text">Fachada com pintura branca, plantas black friday,
+      porta de vidro marinho e arandelas metálicas brancas,
+      com espaçamento amplo e cozinha americana.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$3.300.000,00</li>
+    <li class="list-group-item"><img src="assets/img/iconedacasa1.png">  5 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  6 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previa</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa24.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA FARINAZZO</h5>
+    <p class="card-text">Casa moderna com janelas amplas de vidro,
+      cortina em tecido branco, portão de madeira e revestimento cinza
+      com sacadas amplas para todos os quartos.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$956.000,00</li>
+    <li class="list-group-item"><img src="assets/img/iconedacasa1.png">  4 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  5 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previa</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa25.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA OF STELL</h5>
+    <p class="card-text">Casa ampla com pintura branco gelo e amadeirada,
+      sala de estar com sofá cinzas e azuis, tendo mesa de centro,
+      área ampla com arquitetura oriental.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$25.000.000,00</li>
+    <li class="list-group-item"><img src="assets/img/iconedacasa1.png">  12 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  9 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previa</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="card cardscasa">
+  <img src="assets/img/casasnovas/casa26.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CASA STAY</h5>
+    <p class="card-text">Fachada com pintura branca,
+      parede de vidro verde, porta de madeira branca,
+      canteiro na entrada da casa e varanda com luminárias embutidas.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item cardtext">R$1.880.000,00</li>
+    <li class="list-group-item cardtextual"><img src="assets/img/iconedacasa1.png">  2 quartos</li>
+    <li class="list-group-item"><img src="assets/img/banheiro.png">  3 banheiros</li>
+  </ul>
+  <br>
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">Previa</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+    </section>
+
+    <section class="quem-somos" id="quem-somos">
+      <h3 class="quem-somos__titulo">Atendimentos</h3>
+      <p class="quem-somos__descricao">Feedbacks pelo exelente trabalho</p>
+
+      <div class="pessoas">
+          <div class="pesssoas__cards">
+          <div class="pessoa">
+              <div class="pessoa__imagem pessoa__imagem--genevivi"></div>
+              <div class="pessoa__nome">Genevivi</div>
+              <div class="pessoa__funcao">vendeu sua casa</div>
+          </div>
+          <div class="pessoas__texto">
+              <img src="assets/img/casaicoo.png" alt="sobre">
+              <p>Essa casa era dos meus pais, uma herança que eles me deram, e como estou indo para outro
+                  país não teria como ficar com ela, então poder ter vendido e dado um novo lar a alguem ajudou muito
+              </p>
+          </div>
+          </div>
+          <div class="pesssoas__cards">
+              <div class="pessoa">
+                  <div class="pessoa__imagem pessoa__imagem--daemon"></div>
+                  <div class="pessoa__nome">Daemon</div>
+                  <div class="pessoa__funcao">vendeu sua casa</div>
+              </div>
+              <div class="pessoas__texto">
+                  <img src="assets/img/casaicoo.png" alt="sobre">
+                  <p>Uma casa que eu não tinha mais esperanças de vender por estar muito velha, e voceês 
+                      me ajudam muito!
+                  </p>
+              </div>
+              </div>
+          <div class="pesssoas__cards">
+          <div class="pessoa">
+              <div class="pessoa__imagem pessoa__imagem--monserrat"></div>
+              <div class="pessoa__nome">Monserrat</div>
+              <div class="pessoa__funcao">comprou uma casa</div>
+          </div>
+          <div class="pessoas__texto">
+              <img src="assets/img/casaicoo.png" alt="sobre">
+              <p>Devo agradecer pela otimo atendimento, e todo o processo com as papeladas,
+                 com a ajuda de voceês agora tenho uma casa perto da faculdade</p>
+          </div>
+          </div>
+          <div class="pesssoas__cards">
+          <div class="pessoa">
+              <div class="pessoa__imagem pessoa__imagem--veronica"></div>
+              <div class="pessoa__nome">Veronica</div>
+              <div class="pessoa__funcao">comprou uma casa</div>
+          </div>
+          <div class="pessoas__texto">
+              <img src="assets/img/casaicoo.png" alt="sobre">
+              <p>primeiramente gostaria de agradecer pela grande ajuda, a conseguir uma nova
+                  casa para mim e para meus pets!
+              </p>
+          </div>
+      </div>
+      </div>
+  </section>
+</main>
+
+<!--footer inicio-->
+<footer>
+  <div class="rodape" id="rodape">
+      <div class="twofooter">
+          <!-- footer col-->
+          <div class="rodapediv">
+              <h4>Empresa</h4>
+              <ul>
+                  <li><a href="#"> Quem somos </a></li>
+                  <li><a href=""> Política de privacidade </a></li>
+                  <li><a href=""> Nossos afiliados</a></li>
+              </ul>
+          </div>
+
+          <div class="rodapediv">
+              <h4>Obter ajuda</h4>
+              <ul>
+                  <li><a href="#">Contratos</a></li>
+                  <li><a href="#">Status De Pedido</a></li>
+                  <li><a href="#">Orçamentos</a></li>
+              </ul>
+          </div>
+
+          <div class="rodapediv">
+              <h4>Envio seu curriculo!</h4>
+              <div class="form-sub">
+                  <form>
+                      <input type="email" placeholder="Digite o seu e-mail" required>
+                      <button>enviar</button>
+                  </form>
+              </div>
+
+              <div class="medias-socias">
+                  <a href="#"> <img src="assets/img/iconesmidias/icons8-facebook-num-círculo.gif" alt=""></a>
+                  <a href="#"> <img src="assets/img/iconesmidias/icons8-instagram.gif" alt=""></a>
+                  <a href="#"> <img src="assets/img/iconesmidias/icons8-linkedin-circundado.gif" alt=""></a>
+                  <a href="#"> <img src="assets/img/iconesmidias/icons8-whatsapp.gif" alt=""></a>
+              </div>
+
+          </div>
+          <!--end footer col-->
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

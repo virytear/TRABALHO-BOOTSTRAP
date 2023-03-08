@@ -1,0 +1,31 @@
+.pessoa__imagem{
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto; /*centraliza na horizontal*/
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.497);
+
+    
+}
+
+.pessoa__imagem--genevivi{
+    background-image: url('../../img/pessoas/Genevivi\ Drumont.jpg');
+
+}
+
+.pessoa__imagem--monserrat{
+    background-image: url('../../img/pessoas/Monserrat\ Fiore.jpg');
+
+}
+
+.pessoa__imagem--veronica{
+    background-image: url('../../img/pessoas/Veronica\ Humansky.jpg');
+
+}
+.pessoa__imagem--daemon{
+    background-image: url('../../img/pessoas/Daemon.jpg');
+
+}

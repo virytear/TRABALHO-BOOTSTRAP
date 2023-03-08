@@ -1,0 +1,111 @@
+footer{
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.rodape{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.twofooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rodapediv{
+    width: 25%;
+    padding: 0 15px;
+}
+.rodapediv h4{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.rodapediv ul{
+    list-style: none;
+}
+.rodapediv ul li{
+    margin: 10px 0;
+}
+.rodapediv ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.rodapediv ul li a:hover{
+    color: #BBBF4E;
+    padding-left: 10px;
+}
+.rodapediv .medias-socias{
+    margin-top: 30px;
+}
+.rodapediv .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(20, 19, 19);
+    border: 1px solid #BBBF4E;
+    transition: all 0.5s ease;
+}
+
+/*midas colocadas
+.rodapediv .medias-socias a i{
+    font-size: 20px;
+}
+
+.rodapediv .medias-socias a:hover{
+    color: #ffffff;
+    background-color: #BBBF4E;
+}
+*/
+/*input de enviar as mensagens*/
+.rodapediv .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #BBBF4E;
+    color: rgb(247, 247, 247);
+    background-color: #e4e4e4;
+}
+.rodapediv .form-sub input::placeholder{
+    color: rgb(5, 5, 5);
+}
+.rodapediv .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color:#BBBF4E;        
+}
+/* Responsivo 
+@media (max-width: 800px) {
+    .rodapediv{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .rodapediv{
+        width: 100%;
+    }
+}
+

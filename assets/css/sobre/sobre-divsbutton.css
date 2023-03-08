@@ -1,0 +1,13 @@
+.sobre__divsbutton{
+    background-color: #BBBF4E;
+    border: none;
+    border-radius: 10px;
+    color: #fbfbfb;
+    padding: 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.sobre__divsbutton:hover{
+    background-color: #a3a3a3;
+    cursor: pointer;
+}

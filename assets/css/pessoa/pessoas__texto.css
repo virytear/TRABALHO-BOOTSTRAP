@@ -1,0 +1,10 @@
+.pesssoas__texto{
+    
+        background-color: #ff00007d;
+        text-align: center;
+        border-radius: 10px;
+        padding: 15px;
+        margin: 0 1rem 5rem 0;
+        width: calc(30.30% - 1.5rem);
+       
+}
